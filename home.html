@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>My Site — Home</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="description" content="Simple, reliable linking tools and resources.">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="logo" href="index.html">MySite</a>
+			<button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+			<nav id="main-nav" class="nav" aria-label="Primary Navigation">
+				<a href="index.html">Home</a>
+				<a href="#features">Features</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container hero-inner">
+				<h1>Build better links, faster</h1>
+				<p class="lead">Simple, reliable linking tools and components for modern projects.</p>
+				<div class="cta">
+					<a class="btn primary" href="#features">Get Started</a>
+					<a class="btn" href="index.html">Learn More</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="features" class="features container">
+			<article class="feature">
+				<h3>Fast</h3>
+				<p>Optimized performance with minimal overhead.</p>
+			</article>
+			<article class="feature">
+				<h3>Reliable</h3>
+				<p>Consistent behavior across browsers and environments.</p>
+			</article>
+			<article class="feature">
+				<h3>Accessible</h3>
+				<p>Built with accessibility best practices in mind.</p>
+			</article>
+		</section>
+
+		<section id="contact" class="container contact">
+			<h2>Contact</h2>
+			<p>Questions or feedback? Email <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© <span id="year"></span> MySite. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="script.js" defer></script>
+</body>
+</html>
