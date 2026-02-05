@@ -1,10 +1,10 @@
 {
   "applinks": {
     "apps": [],
-    "details": [
+    "home": [
       {
         "appIDs": [
-          "VD2R88V685.py.com.bancobasa.personas.qa"
+          "NYY6YR3BG3.py.com.bancobasa.personas.qa"
         ],
         "paths": [
           "*"
@@ -19,7 +19,7 @@
   },
   "webcredentials": {
     "apps": [
-      "VD2R88V685.py.com.bancobasa.personas.qa"
+      "NYY6YR3BG3.py.com.bancobasa.personas.qa"
     ]
   }
 }
